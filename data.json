@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Good Will Hunting",
+    "genre": "Drama",
+    "year": 1997,
+    "director": "Gus Van Sant",
+    "image": "Images/goodWillHunting.jpg"
+  },
+  {
+    "Movie Title": "Running on Empty",
+    "genre": "Drama",
+    "year": 1988,
+    "director": "Sidney Lumet",
+    "image": "Images/RunningOnEmpty.jpg"
+  },
+  {
+    "Movie Title": "This is the End",
+    "genre": "Comedy",
+    "year": 2013,
+    "director": "Evan Goldberg, Seth Rogan",
+    "image": "Images/ThisIsTheEnd.jpg"
+  },
+  {
+    "Movie Title": "Astro Boy",
+    "genre": "Sci-Fi",
+    "year": 2009,
+    "director": "David Bowers",
+    "image": "Images/AstroBoy.jpg"
+  },
+  {
+    "Movie Title": "She's the Man",
+    "genre": "Comedy",
+    "year": 2006,
+    "director": "Andy Fickman",
+    "image": "Images/ShesTheMan.png"
+  },
+  {
+    "Movie Title": "The Birdcage",
+    "genre": "Comedy",
+    "year": 1996,
+    "director": "Mike Nichols",
+    "image": "Images/TheBirdcage.jpg"
+  },
+  {
+    "Movie Title": "Snack Shack",
+    "genre": "Comedy",
+    "year": 2024,
+    "director": "Adam Rehmeier",
+    "image": "Images/SnackShack.jpg"
+  },
+  {
+    "Movie Title": "Tick Tick Boom",
+    "genre": "Drama",
+    "year": 2021,
+    "director": "Lin-Manuel Miranda",
+    "image": "Images/TickTickBoom.jpg"
+  },
+  {
+    "Movie Title": "The Perks of Being a Wallflower",
+    "genre": "Drama",
+    "year": 2012,
+    "director": "Stephen Chbosky",
+    "image": "Images/PerksOfBeingAWallflower.jpg"
+  },
+  {
+    "Movie Title": "Riding in Cars with Boys",
+    "genre": "Drama",
+    "year": 2001,
+    "director": "Penny Marshall",
+    "image": "Images/RidingInCarsWithBoys.jpeg"
+  },
+  {
+    "Movie Title": "No Other Choice",
+    "genre": "Comedy, Thriller",
+    "year": 2025,
+    "director": "Park Chan-wook",
+    "image": "Images/NoOtherChoice.jpeg"
+  },
+  {
+    "Movie Title": "The Odyssey",
+    "genre": "Adventure",
+    "year": 2026,
+    "director": "Christopher Nolan",
+    "image": "Images/TheOdyssey.jpg"
+  },
+  {
+    "Movie Title": "The Maze Runner",
+    "genre": "Action",
+    "year": 2014,
+    "director": "Wes Ball",
+    "image": "Images/TheMazeRunner.jpg"
+  },
+  {
+    "Movie Title": "The Hunger Games",
+    "genre": "Action",
+    "year": 2012,
+    "director": "Gary Ross",
+    "image": "Images/TheHungerGames.jpg"
+  },
+  {
+    "Movie Title": "The Impossible",
+    "genre": "Drama",
+    "year": 2012,
+    "director": "J. A. Bayona",
+    "image": "Images/TheImpossible.jpg"
+  },
+  {
+    "Movie Title": "Star Wars: Revenge of the Sith",
+    "genre": "Sci-Fi",
+    "year": 2005,
+    "director": "George Lucas",
+    "image": "Images/RevengeOfTheSith.jpeg"
+  },
+  {
+    "Movie Title": "The Outsiders",
+    "genre": "Drama ",
+    "year": 1983,
+    "director": "Francis Ford Coppola",
+    "image": "Images/TheOutsiders.jpg"
+  },
+  {
+    "Movie Title": "Dead Poets Society",
+    "genre": "Drama ",
+    "year": 1989,
+    "director": "Peter Weir",
+    "image": "Images/DeadPoetsSociety.jpg"
+  },
+  {
+    "Movie Title": "All Dogs Go To Heaven",
+    "genre": "Family, Drama, Animation",
+    "year": 1989,
+    "director": "Don Bluth",
+    "image": "Images/AllDogsGoToHeaven.jpeg"
+  },
+  {
+    "Movie Title": "Heathers",
+    "genre": "Comedy, Crime",
+    "year": 1989,
+    "director": "Michael Lehmann",
+    "image": "Images/Heathers.jpg"
+  },
+  {
+    "Movie Title": "Manon of the Spring",
+    "genre": "Drama",
+    "year": 1986,
+    "director": "Claude Berri",
+    "image": "Images/ManonOfTheSpring.jpg"
+  },
+  {
+    "Movie Title": "Lucas",
+    "genre": "Romance, Drama",
+    "year": 1986,
+    "director": "David Seltzer",
+    "image": "Images/Lucas.jpg"
+  },
+  {
+    "Movie Title": "Fox and the Hound",
+    "genre": "Adventure, Family",
+    "year": 1981,
+    "director": "Richard Rich, Art Stevens",
+    "image": "Images/FoxandTheHound.jpeg"
+  },
+  {
+    "Movie Title": "A River Runs Through It",
+    "genre": "Drama",
+    "year": 1992,
+    "director": "Robert Redford",
+    "image": "Images/ARiverRunsThroughIt.jpg"
+  }
+]

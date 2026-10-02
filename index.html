@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Collection</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bip7csp.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bip7csp.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Movie Collection</h1>
+        <p>browse my favorite movies!</p>
+    </header>
+
+    <main>
+
+        <div id="filters">
+
+            <label for="yearFilter">Year:</label>
+            <select id="yearFilter">
+                <option value="all">Years</option>
+            </select>
+
+            <label for="genreFilter">Genre:</label>
+            <select id="genreFilter">
+                <option value="all">Genres</option>
+            </select>
+
+            <label for="directorFilter">Director:</label>
+            <select id="directorFilter">
+                <option value="all">Directors</option>
+            </select>
+
+        </div>
+
+        <div id="movies"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
