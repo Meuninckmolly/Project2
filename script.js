@@ -310,7 +310,10 @@ fetch("data.json")
                 "A fox and a hunting dog become childhood friends despite being natural enemies, testing whether their friendship can survive as they grow older.",
 
             "A River Runs Through It":
-                "Two brothers grow up in Montana while their family navigates love, religion, fishing, and the different paths the brothers take through adulthood."
+                "Two brothers grow up in Montana while their family navigates love, religion, fishing, and the different paths the brothers take through adulthood.",
+
+            "Jojo Rabbit":
+                "A lonely 10-year-old German boy in the Hitler Youth with an imaginary friend version of Adolf Hitler who learns his mother is hiding a Jewish teenager in their attic, forcing him to question his blind nationalist beliefs."
 
         };
 

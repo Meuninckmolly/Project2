@@ -190,5 +190,13 @@
     "director": "Robert Redford",
     "rating": "5",
     "image": "Images/ARiverRunsThroughIt.jpg"
+  },
+    {
+    "Movie Title": "Jojo Rabbit",
+    "genre": "Drama, Comedy",
+    "year": 2019,
+    "director": "Taika Waititi",
+    "rating": "5",
+    "image": "Images/jojoRabbit.jpg"
   }
 ]
