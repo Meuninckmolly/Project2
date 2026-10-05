@@ -49,6 +49,8 @@ p {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #movies p {
