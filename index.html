@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Movie Collection</title>
+
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://use.typekit.net/bip7csp.css">
+        <link rel="stylesheet" href="https://use.typekit.net/bip7csp.css">
     <link rel="stylesheet" href="https://use.typekit.net/bip7csp.css">
 </head>
 
@@ -16,30 +18,84 @@
         <p>browse my favorite movies!</p>
     </header>
 
-    <main>
 
-        <div id="filters">
+    <!-- FILTERS -->
+    <section id="filters">
 
+        <div class="filter">
             <label for="yearFilter">Year:</label>
+
             <select id="yearFilter">
                 <option value="all">Years</option>
             </select>
+        </div>
 
+
+        <div class="filter">
             <label for="genreFilter">Genre:</label>
+
             <select id="genreFilter">
                 <option value="all">Genres</option>
             </select>
+        </div>
 
-            <label for="directorFilter">Director:</label>
-            <select id="directorFilter">
-                <option value="all">Directors</option>
+
+        <div class="filter">
+            <label for="ratingFilter">Rating:</label>
+
+            <select id="ratingFilter">
+                <option value="all">Ratings</option>
             </select>
+        </div>
+
+    </section>
+
+
+    <!-- MOVIES -->
+    <main id="movies"></main>
+
+
+    <!-- MOVIE POPUP -->
+    <div id="movieModal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="closeModal" class="close">&times;</button>
+
+            <img id="modalImage" src="" alt="">
+
+            <div class="modal-info">
+
+                <h2 id="modalTitle"></h2>
+
+                <p>
+                    <strong>Year:</strong>
+                    <span id="modalYear"></span>
+                </p>
+
+                <p>
+                    <strong>Genre:</strong>
+                    <span id="modalGenre"></span>
+                </p>
+
+                <p>
+                    <strong>Director:</strong>
+                    <span id="modalDirector"></span>
+                </p>
+
+                <p>
+                    <strong>Rating:</strong>
+                    <span id="modalRating"></span>
+                </p>
+
+                <p id="modalPlot"></p>
+
+            </div>
 
         </div>
 
-        <div id="movies"></div>
+    </div>
 
-    </main>
 
     <script src="script.js"></script>
 

@@ -1,121 +1,308 @@
-* {
-    box-sizing: border-box;
-}
-
 html {
     background-color: #efe6b2;
 }
 
-html,
 body {
     margin: 0;
-    padding: 0;
-    width: 100%;
+    font-family: "Gill Sans", sans-serif;
+    color: #263000;
 }
 
-h1 {
-font-family: "kuhlman-vf", sans-serif;
-font-variation-settings: "SEED" 0, "wdth" 100;
-    text-align: center;
-    font-size: 100px;
-    color: #efcc70;
-    margin-bottom: 0px;
 
-}
-
-h2 {
-    font-family: "novecento-sans-wide", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
+/* ---------------- HEADER ---------------- */
 
 header {
     background-color: #849e16;
     width: 100%;
     padding: 30px 20px 25px;
-}
-
-p {
-    font-family: 'Gill Sans';
+    box-sizing: border-box;
     text-align: center;
-    font-size: 30px;
-    margin-top: 0px;
-    color:#263000;
 }
 
-
-
-#movies {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+h1 {
+    font-family: "kuhlman-vf", sans-serif;
+    color: #efcc70;
+    font-size: 100px;
+    margin: 0;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
-#movies p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+header p {
+    margin: 5px 0 0;
     font-size: 20px;
-    padding-top: 10px;
+    color: #263000;
 }
 
 
-.card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 8%;
-    background-color: #efcc70;
-    padding: 10px;
-}
-.card img {
-    width: 75%;
-    aspect-ratio: 2 / 3;
-    object-fit: cover;
-    display: block;
-    margin: 18px auto;
-    border-radius: 5px;
-}
+/* ---------------- FILTERS ---------------- */
 
 #filters {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
     flex-wrap: wrap;
-    margin: 10px 0 35px;
+
+    padding: 25px 20px;
 }
 
-#filters label {
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.filter label {
     font-family: "novecento-sans-wide", sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 14px;
     color: #263000;
-    margin-left: 8px;
 }
 
-#filters select {
-    appearance: auto;
-    -webkit-appearance: auto;
-
-    font-family: "Gill Sans", sans-serif;
-    font-size: 17px;
-    color: #263000;
-
+select {
     background-color: #efcc70;
+    color: #263000;
 
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
 
-    padding: 11px 18px;
+    padding: 10px 35px 10px 15px;
+
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+
     cursor: pointer;
 }
 
-#filters select:hover {
-    background-color: #f4d989;
+
+/* ---------------- MOVIE GRID ---------------- */
+
+#movies {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 1rem;
+
+    margin: 20px;
 }
 
-#filters select:focus {
-    outline: none;
+
+/* ---------------- MOVIE CARD ---------------- */
+
+.card {
+    background-color: #efcc70;
+
+    border-radius: 8%;
+
+    padding: 10px;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 75%;
+
+    aspect-ratio: 2 / 3;
+
+    object-fit: cover;
+
+    display: block;
+
+    margin: 10px auto;
+
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 20px;
+
+    margin: 10px 5px 5px;
+
+    color: #263000;
+}
+
+.card p {
+    margin: 5px;
+
+    font-size: 15px;
+}
+
+
+/* ---------------- MODAL ---------------- */
+
+.modal {
+    display: none;
+
+    position: fixed;
+
+    z-index: 1000;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(38, 48, 0, 0.65);
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+
+/* MODAL CONTENT */
+
+.modal-content {
+    background-color: #efe6b2;
+
+    width: 90%;
+    max-width: 800px;
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    border-radius: 25px;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    gap: 30px;
+
+    position: relative;
+}
+
+
+/* MODAL POSTER */
+
+#modalImage {
+    width: 250px;
+
+    height: 375px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    flex-shrink: 0;
+}
+
+
+/* MODAL TEXT */
+
+.modal-info {
+    padding: 10px;
+}
+
+.modal-info h2 {
+    font-size: 35px;
+
+    color: #849e16;
+
+    margin-top: 0;
+}
+
+.modal-info p {
+    font-size: 17px;
+
+    line-height: 1.5;
+}
+
+#modalPlot {
+    margin-top: 25px;
+}
+
+
+/* CLOSE BUTTON */
+
+.close {
+    position: absolute;
+
+    top: 10px;
+    right: 15px;
+
+    border: none;
+
+    background: none;
+
+    color: #263000;
+
+    font-size: 35px;
+
+    cursor: pointer;
+
+    line-height: 1;
+}
+
+.close:hover {
+    color: #849e16;
+}
+
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media (max-width: 900px) {
+
+    #movies {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    #movies {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .modal-content {
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+    }
+
+    #modalImage {
+        width: 200px;
+        height: 300px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    #movies {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
 }

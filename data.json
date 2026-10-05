@@ -4,6 +4,7 @@
     "genre": "Drama",
     "year": 1997,
     "director": "Gus Van Sant",
+    "rating": "5",
     "image": "Images/goodWillHunting.jpg"
   },
   {
@@ -11,6 +12,7 @@
     "genre": "Drama",
     "year": 1988,
     "director": "Sidney Lumet",
+    "rating": "5",
     "image": "Images/RunningOnEmpty.jpg"
   },
   {
@@ -18,6 +20,7 @@
     "genre": "Comedy",
     "year": 2013,
     "director": "Evan Goldberg, Seth Rogan",
+    "rating": "3.5",
     "image": "Images/ThisIsTheEnd.jpg"
   },
   {
@@ -25,6 +28,7 @@
     "genre": "Sci-Fi",
     "year": 2009,
     "director": "David Bowers",
+    "rating": "4",
     "image": "Images/AstroBoy.jpg"
   },
   {
@@ -32,6 +36,7 @@
     "genre": "Comedy",
     "year": 2006,
     "director": "Andy Fickman",
+    "rating": "5",
     "image": "Images/ShesTheMan.png"
   },
   {
@@ -39,6 +44,7 @@
     "genre": "Comedy",
     "year": 1996,
     "director": "Mike Nichols",
+    "rating": "5",
     "image": "Images/TheBirdcage.jpg"
   },
   {
@@ -46,6 +52,7 @@
     "genre": "Comedy",
     "year": 2024,
     "director": "Adam Rehmeier",
+    "rating": "4",
     "image": "Images/SnackShack.jpg"
   },
   {
@@ -53,6 +60,7 @@
     "genre": "Drama",
     "year": 2021,
     "director": "Lin-Manuel Miranda",
+    "rating": "5",
     "image": "Images/TickTickBoom.jpg"
   },
   {
@@ -60,6 +68,7 @@
     "genre": "Drama",
     "year": 2012,
     "director": "Stephen Chbosky",
+    "rating": "5",
     "image": "Images/PerksOfBeingAWallflower.jpg"
   },
   {
@@ -67,6 +76,7 @@
     "genre": "Drama",
     "year": 2001,
     "director": "Penny Marshall",
+    "rating": "4",
     "image": "Images/RidingInCarsWithBoys.jpeg"
   },
   {
@@ -74,6 +84,7 @@
     "genre": "Comedy, Thriller",
     "year": 2025,
     "director": "Park Chan-wook",
+    "rating": "5",
     "image": "Images/NoOtherChoice.jpeg"
   },
   {
@@ -81,6 +92,7 @@
     "genre": "Adventure",
     "year": 2026,
     "director": "Christopher Nolan",
+    "rating": "3",
     "image": "Images/TheOdyssey.jpg"
   },
   {
@@ -88,6 +100,7 @@
     "genre": "Action",
     "year": 2014,
     "director": "Wes Ball",
+    "rating": "4",
     "image": "Images/TheMazeRunner.jpg"
   },
   {
@@ -95,6 +108,7 @@
     "genre": "Action",
     "year": 2012,
     "director": "Gary Ross",
+    "rating": "3",
     "image": "Images/TheHungerGames.jpg"
   },
   {
@@ -102,6 +116,7 @@
     "genre": "Drama",
     "year": 2012,
     "director": "J. A. Bayona",
+    "rating": "3",
     "image": "Images/TheImpossible.jpg"
   },
   {
@@ -109,6 +124,7 @@
     "genre": "Sci-Fi",
     "year": 2005,
     "director": "George Lucas",
+    "rating": "5",
     "image": "Images/RevengeOfTheSith.jpeg"
   },
   {
@@ -116,6 +132,7 @@
     "genre": "Drama ",
     "year": 1983,
     "director": "Francis Ford Coppola",
+    "rating": "4",
     "image": "Images/TheOutsiders.jpg"
   },
   {
@@ -123,6 +140,7 @@
     "genre": "Drama ",
     "year": 1989,
     "director": "Peter Weir",
+    "rating": "5",
     "image": "Images/DeadPoetsSociety.jpg"
   },
   {
@@ -130,6 +148,7 @@
     "genre": "Family, Drama, Animation",
     "year": 1989,
     "director": "Don Bluth",
+    "rating": "5",
     "image": "Images/AllDogsGoToHeaven.jpeg"
   },
   {
@@ -137,6 +156,7 @@
     "genre": "Comedy, Crime",
     "year": 1989,
     "director": "Michael Lehmann",
+    "rating": "4",
     "image": "Images/Heathers.jpg"
   },
   {
@@ -144,6 +164,7 @@
     "genre": "Drama",
     "year": 1986,
     "director": "Claude Berri",
+    "rating": "3.5",
     "image": "Images/ManonOfTheSpring.jpg"
   },
   {
@@ -151,6 +172,7 @@
     "genre": "Romance, Drama",
     "year": 1986,
     "director": "David Seltzer",
+    "rating": "2.5",
     "image": "Images/Lucas.jpg"
   },
   {
@@ -158,6 +180,7 @@
     "genre": "Adventure, Family",
     "year": 1981,
     "director": "Richard Rich, Art Stevens",
+    "rating": "4",
     "image": "Images/FoxandTheHound.jpeg"
   },
   {
@@ -165,6 +188,7 @@
     "genre": "Drama",
     "year": 1992,
     "director": "Robert Redford",
+    "rating": "5",
     "image": "Images/ARiverRunsThroughIt.jpg"
   }
 ]
